@@ -103,49 +103,49 @@ export default function Home() {
 				<CardBody>
 					<HStack width={'100%'}>
 						<IconButton
-							icon={<FaEnvelopeOpen />}
-							aria-label={'Open Envelope'}
-							data-label='name'
+							icon={<FaUser />}
+							aria-label={'User'}
+							data-label='user'
 							onMouseOver={handleValue}
 							size={'lg'}
 						/>
 						<Spacer />
 						<IconButton
 							icon={<FaEnvelopeOpen />}
-							aria-label={'Open Envelope'}
-							data-label='name'
+							aria-label={'Email'}
+							data-label='email'
 							onMouseOver={handleValue}
 							size={'lg'}
 						/>
 						<Spacer />
 						<IconButton
-							icon={<FaEnvelopeOpen />}
-							aria-label={'Open Envelope'}
-							data-label='name'
+							icon={<FaCalendarTimes />}
+							aria-label={'Age'}
+							data-label='age'
 							onMouseOver={handleValue}
 							size={'lg'}
 						/>
 						<Spacer />
 						<IconButton
-							icon={<FaEnvelopeOpen />}
-							aria-label={'Open Envelope'}
-							data-label='name'
+							icon={<FaMap />}
+							aria-label={'Street'}
+							data-label='street'
 							onMouseOver={handleValue}
 							size={'lg'}
 						/>
 						<Spacer />
 						<IconButton
-							icon={<FaEnvelopeOpen />}
-							aria-label={'Open Envelope'}
-							data-label='name'
+							icon={<FaPhone />}
+							aria-label={'Phone'}
+							data-label='phone'
 							onMouseOver={handleValue}
 							size={'lg'}
 						/>
 						<Spacer />
 						<IconButton
-							icon={<FaEnvelopeOpen />}
-							aria-label={'Open Envelope'}
-							data-label='name'
+							icon={<FaLock />}
+							aria-label={'Password'}
+							data-label='password'
 							onMouseOver={handleValue}
 							size={'lg'}
 						/>
