@@ -6,3 +6,5 @@ const theme = extendTheme({
 		body: 'roboto, sans-serif'
 	}
 })
+
+export default theme
