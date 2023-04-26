@@ -95,6 +95,7 @@ export default function Home() {
 							src={person?.image}
 							alt='avatar'
 							rounded='full'
+							border={'0.5rem solid white'}
 						/>
 						<Heading>{title}</Heading>
 						<Text>{value}</Text>
