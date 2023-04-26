@@ -17,6 +17,8 @@ export default function Home() {
 
 	const { data, isLoading, refetch } = useGetUsersQuery()
 
+	useEffect(() => {}, [])
+
 	return (
 		<Flex
 			justify='center'
