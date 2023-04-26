@@ -43,6 +43,8 @@ export default function Home() {
 			}
 
 			setPerson(newPerson)
+			setTitle('name')
+			setValue(newPerson.name)
 		}
 	}, [data])
 
