@@ -42,7 +42,7 @@ export default function Home() {
 
 			const { phone, email } = randomPerson
 			const { first, last } = randomPerson.name
-			const { large: image } = randomPerson.image
+			const { large: image } = randomPerson.picture
 			const { password } = randomPerson.login
 			const {
 				dob: { age }
@@ -75,7 +75,7 @@ export default function Home() {
 			overflow={'hidden'}
 			width={'100vw'}
 		>
-			<Card align='center'>
+			<Card align='center' size={'lg'}>
 				<CardHeader>
 					<Heading size='md'> Customer dashboard</Heading>
 				</CardHeader>
