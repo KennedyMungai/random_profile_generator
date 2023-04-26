@@ -75,7 +75,7 @@ export default function Home() {
 			overflow={'hidden'}
 			width={'100vw'}
 		>
-			<Card align='center' size={'lg'}>
+			<Card align='center' size={'lg'} width={'45rem'} height={'25rem'}>
 				<CardHeader>
 					<Heading size='md'> Customer dashboard</Heading>
 				</CardHeader>
