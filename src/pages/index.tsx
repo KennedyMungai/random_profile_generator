@@ -22,6 +22,15 @@ export default function Home() {
 			const randomPerson = data.results[0]
 
 			const { phone, email } = randomPerson
+			const { first, last } = randomPerson.name
+			const { large: image } = randomPerson.image
+			const { person } = randomPerson.login
+			const {
+				dob: { age }
+			} = randomPerson
+			const {
+				street: { number, name }
+			} = randomPerson.location
 		}
 	}, [data])
 
