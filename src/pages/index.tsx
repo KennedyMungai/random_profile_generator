@@ -108,6 +108,7 @@ export default function Home() {
 							data-label='user'
 							onMouseOver={handleValue}
 							size={'lg'}
+							_hover={{ bg: 'blue.200' }}
 						/>
 						<Spacer />
 						<IconButton
@@ -116,6 +117,7 @@ export default function Home() {
 							data-label='email'
 							onMouseOver={handleValue}
 							size={'lg'}
+							_hover={{ bg: 'blue.200' }}
 						/>
 						<Spacer />
 						<IconButton
@@ -124,6 +126,7 @@ export default function Home() {
 							data-label='age'
 							onMouseOver={handleValue}
 							size={'lg'}
+							_hover={{ bg: 'blue.200' }}
 						/>
 						<Spacer />
 						<IconButton
@@ -132,6 +135,7 @@ export default function Home() {
 							data-label='street'
 							onMouseOver={handleValue}
 							size={'lg'}
+							_hover={{ bg: 'blue.200' }}
 						/>
 						<Spacer />
 						<IconButton
@@ -140,6 +144,7 @@ export default function Home() {
 							data-label='phone'
 							onMouseOver={handleValue}
 							size={'lg'}
+							_hover={{ bg: 'blue.200' }}
 						/>
 						<Spacer />
 						<IconButton
@@ -148,6 +153,7 @@ export default function Home() {
 							data-label='password'
 							onMouseOver={handleValue}
 							size={'lg'}
+							_hover={{ bg: 'blue.200' }}
 						/>
 					</HStack>
 				</CardBody>
