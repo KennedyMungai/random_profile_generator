@@ -1,6 +1,14 @@
 import { useGetUsersQuery } from '@/services/users'
 import { Flex } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
+import {
+	FaEnvelopeOpen,
+	FaUser,
+	FaCalendarTimes,
+	FaMap,
+	FaPhone,
+	FaLock
+} from 'react-icons/fa'
 
 export default function Home() {
 	return (
