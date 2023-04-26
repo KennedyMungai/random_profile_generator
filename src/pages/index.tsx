@@ -9,7 +9,9 @@ import {
 	Heading,
 	Text,
 	Image,
-	VStack
+	VStack,
+	HStack,
+	IconButton
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import {
@@ -30,6 +32,8 @@ interface IPerson {
 	street: string
 	name: string
 }
+
+const handleValue = () => {}
 
 export default function Home() {
 	const [person, setPerson] = useState<IPerson | null>(null)
@@ -96,10 +100,15 @@ export default function Home() {
 					</VStack>
 				</CardHeader>
 				<CardBody>
-					<Text>
-						View a summary of all your customers over the last
-						month.
-					</Text>
+					<HStack>
+						<IconButton
+							icon={<FaEnvelopeOpen />}
+							aria-label={'Open Envelope'}
+							data-label='name'
+							onMouseOver={handleValue}
+							size={'lg'}
+						/>
+					</HStack>
 				</CardBody>
 				<CardFooter>
 					<Button colorScheme='blue'>View here</Button>
