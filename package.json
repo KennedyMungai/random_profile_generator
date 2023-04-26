@@ -12,6 +12,8 @@
     "@chakra-ui/react": "^2.6.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fontsource/montserrat": "^4.5.14",
+    "@fontsource/roboto": "^4.5.8",
     "@reduxjs/toolkit": "^1.9.5",
     "@types/node": "18.16.1",
     "@types/react": "18.2.0",
