@@ -11,6 +11,8 @@ import {
 } from 'react-icons/fa'
 
 export default function Home() {
+	const [person, setPerson] = useState(null)
+
 	return (
 		<Flex
 			justify='center'
