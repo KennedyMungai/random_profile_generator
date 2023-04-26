@@ -24,13 +24,23 @@ export default function Home() {
 			const { phone, email } = randomPerson
 			const { first, last } = randomPerson.name
 			const { large: image } = randomPerson.image
-			const { person } = randomPerson.login
+			const { password } = randomPerson.login
 			const {
 				dob: { age }
 			} = randomPerson
 			const {
 				street: { number, name }
 			} = randomPerson.location
+
+			const newPerson = {
+				image,
+				phone,
+				email,
+				password,
+				age,
+				street: `${number} ${name}`,
+				name: `${first} ${last}`
+			}
 		}
 	}, [data])
 
