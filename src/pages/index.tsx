@@ -14,10 +14,6 @@ export default function Home() {
 	const [person, setPerson] = useState(null)
 	const [value, setValue] = useState('Random Person')
 
-	const { data, isLoading } = useGetUsersQuery(value)
-
-	useEffect(() => {}, [])
-
 	return (
 		<Flex
 			justify='center'
