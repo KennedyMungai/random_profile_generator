@@ -1,5 +1,14 @@
 import { useGetUsersQuery } from '@/services/users'
-import { Flex } from '@chakra-ui/react'
+import {
+	Button,
+	Card,
+	CardBody,
+	CardFooter,
+	CardHeader,
+	Flex,
+	Heading,
+	Text
+} from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import {
 	FaEnvelopeOpen,
@@ -66,7 +75,20 @@ export default function Home() {
 			overflow={'hidden'}
 			width={'100vw'}
 		>
-			Something in the way
+			<Card align='center'>
+				<CardHeader>
+					<Heading size='md'> Customer dashboard</Heading>
+				</CardHeader>
+				<CardBody>
+					<Text>
+						View a summary of all your customers over the last
+						month.
+					</Text>
+				</CardBody>
+				<CardFooter>
+					<Button colorScheme='blue'>View here</Button>
+				</CardFooter>
+			</Card>
 		</Flex>
 	)
 }
