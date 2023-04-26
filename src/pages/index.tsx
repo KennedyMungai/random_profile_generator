@@ -10,6 +10,16 @@ import {
 	FaLock
 } from 'react-icons/fa'
 
+interface IPerson {
+	image: string
+	phone: string
+	email: string
+	password: string
+	age: number
+	street: string
+	name: string
+}
+
 export default function Home() {
 	const [person, setPerson] = useState(null)
 	const [value, setValue] = useState('Random Person')
