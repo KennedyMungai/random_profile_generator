@@ -11,7 +11,8 @@ import {
 	Image,
 	VStack,
 	HStack,
-	IconButton
+	IconButton,
+	Spacer
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import {
@@ -100,7 +101,47 @@ export default function Home() {
 					</VStack>
 				</CardHeader>
 				<CardBody>
-					<HStack>
+					<HStack width={'100%'}>
+						<IconButton
+							icon={<FaEnvelopeOpen />}
+							aria-label={'Open Envelope'}
+							data-label='name'
+							onMouseOver={handleValue}
+							size={'lg'}
+						/>
+						<Spacer />
+						<IconButton
+							icon={<FaEnvelopeOpen />}
+							aria-label={'Open Envelope'}
+							data-label='name'
+							onMouseOver={handleValue}
+							size={'lg'}
+						/>
+						<Spacer />
+						<IconButton
+							icon={<FaEnvelopeOpen />}
+							aria-label={'Open Envelope'}
+							data-label='name'
+							onMouseOver={handleValue}
+							size={'lg'}
+						/>
+						<Spacer />
+						<IconButton
+							icon={<FaEnvelopeOpen />}
+							aria-label={'Open Envelope'}
+							data-label='name'
+							onMouseOver={handleValue}
+							size={'lg'}
+						/>
+						<Spacer />
+						<IconButton
+							icon={<FaEnvelopeOpen />}
+							aria-label={'Open Envelope'}
+							data-label='name'
+							onMouseOver={handleValue}
+							size={'lg'}
+						/>
+						<Spacer />
 						<IconButton
 							icon={<FaEnvelopeOpen />}
 							aria-label={'Open Envelope'}
