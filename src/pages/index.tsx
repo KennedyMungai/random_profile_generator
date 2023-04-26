@@ -152,7 +152,9 @@ export default function Home() {
 					</HStack>
 				</CardBody>
 				<CardFooter>
-					<Button colorScheme='blue'>View here</Button>
+					<Button colorScheme='blue'>
+						{isLoading ? 'Loading...' : 'Refresh'}
+					</Button>
 				</CardFooter>
 			</Card>
 		</Flex>
