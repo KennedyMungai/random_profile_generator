@@ -86,8 +86,8 @@ export default function Home() {
 				align='center'
 				size={'lg'}
 				width={'45rem'}
-				height={'25rem'}
-				bg={'gray.200'}
+				height={'35rem'}
+				bg={'gray.100'}
 			>
 				<CardHeader>
 					<VStack spacing={'2rem'}>
