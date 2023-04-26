@@ -43,7 +43,7 @@ export default function Home() {
 
 	const { data, isLoading, refetch } = useGetUsersQuery()
 
-	useEffect(() => {
+	const defaultImage = useEffect(() => {
 		if (data) {
 			const randomPerson = data.results[0]
 
@@ -92,7 +92,7 @@ export default function Home() {
 				<CardHeader>
 					<VStack spacing={'2rem'}>
 						<Image
-							src={person?.image}
+							src={person?.image ?? defaultImage}
 							alt='avatar'
 							rounded='full'
 							border={'0.5rem solid white'}
