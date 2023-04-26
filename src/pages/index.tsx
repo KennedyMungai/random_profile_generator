@@ -17,7 +17,13 @@ export default function Home() {
 
 	const { data, isLoading, refetch } = useGetUsersQuery()
 
-	useEffect(() => {}, [])
+	useEffect(() => {
+		if (data) {
+			const randomPerson = data.results[0]
+
+			const { phone, email } = randomPerson
+		}
+	}, [data])
 
 	return (
 		<Flex
