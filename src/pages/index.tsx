@@ -159,7 +159,7 @@ export default function Home() {
 					</HStack>
 				</CardBody>
 				<CardFooter>
-					<Button colorScheme='blue'>
+					<Button colorScheme='blue' onClick={() => refetch()}>
 						{isLoading ? 'Loading...' : 'Refresh'}
 					</Button>
 				</CardFooter>
