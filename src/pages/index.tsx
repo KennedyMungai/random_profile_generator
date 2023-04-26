@@ -8,7 +8,8 @@ import {
 	Flex,
 	Heading,
 	Text,
-	Image
+	Image,
+	VStack
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import {
@@ -76,9 +77,23 @@ export default function Home() {
 			overflow={'hidden'}
 			width={'100vw'}
 		>
-			<Card align='center' size={'lg'} width={'45rem'} height={'25rem'}>
+			<Card
+				align='center'
+				size={'lg'}
+				width={'45rem'}
+				height={'25rem'}
+				bg={'gray.200'}
+			>
 				<CardHeader>
-					<Image src={person?.image} alt='avatar' rounded='full' />
+					<VStack spacing={'2rem'}>
+						<Image
+							src={person?.image}
+							alt='avatar'
+							rounded='full'
+						/>
+						<Heading>{title}</Heading>
+						<Text>{value}</Text>
+					</VStack>
 				</CardHeader>
 				<CardBody>
 					<Text>
