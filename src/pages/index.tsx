@@ -39,7 +39,7 @@ const handleValue = () => {}
 export default function Home() {
 	const [person, setPerson] = useState<IPerson | null>(null)
 	const [value, setValue] = useState('Random Person')
-	const [title, setTitle] = useState('name')
+	const [title, setTitle] = useState('My Name')
 
 	const { data, isLoading, refetch } = useGetUsersQuery()
 
@@ -69,7 +69,7 @@ export default function Home() {
 			}
 
 			setPerson(newPerson)
-			setTitle('name')
+			setTitle('My Name')
 			setValue(newPerson.name)
 		}
 	}, [data])
