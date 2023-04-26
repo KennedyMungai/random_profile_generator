@@ -7,7 +7,8 @@ import {
 	CardHeader,
 	Flex,
 	Heading,
-	Text
+	Text,
+	Image
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import {
@@ -77,7 +78,7 @@ export default function Home() {
 		>
 			<Card align='center' size={'lg'} width={'45rem'} height={'25rem'}>
 				<CardHeader>
-					<Heading size='md'> Customer dashboard</Heading>
+					<Image src={person?.image} alt='avatar' rounded='full' />
 				</CardHeader>
 				<CardBody>
 					<Text>
