@@ -13,6 +13,7 @@ import {
 export default function Home() {
 	const [person, setPerson] = useState(null)
 	const [value, setValue] = useState('Random Person')
+	const [title, setTitle] = useState('name')
 
 	return (
 		<Flex
