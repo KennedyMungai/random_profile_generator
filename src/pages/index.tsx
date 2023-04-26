@@ -14,7 +14,7 @@ import {
 	IconButton,
 	Spacer
 } from '@chakra-ui/react'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, MouseEvent } from 'react'
 import {
 	FaEnvelopeOpen,
 	FaUser,
@@ -34,7 +34,7 @@ interface IPerson {
 	name: string
 }
 
-const handleValue = () => {}
+const handleValue = (e: MouseEvent<HTMLButtonElement>) => {}
 
 export default function Home() {
 	const [person, setPerson] = useState<IPerson | null>(null)
